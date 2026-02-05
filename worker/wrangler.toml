@@ -28,7 +28,7 @@ keep_vars = true
 # ANNOUNCEMENT = "Custom Announcement"
 # always show ANNOUNCEMENT even no changes
 # ALWAYS_SHOW_ANNOUNCEMENT = true
-PREFIX = "tmp"
+PREFIX = ""
 # address check REGEX, if not set, will not check
 # ADDRESS_CHECK_REGEX = "^(?!.*admin).*"
 # address name replace REGEX, if not set, the default is [^a-z0-9]
@@ -41,15 +41,15 @@ PREFIX = "tmp"
 # IF YOU WANT TO MAKE YOUR SITE PRIVATE, UNCOMMENT THE FOLLOWING LINES
 # PASSWORDS = ["123", "456"]
 # For admin panel
-# ADMIN_PASSWORDS = ["123", "456"]
+ADMIN_PASSWORDS = ["xlike"]
 # warning: no password or user check for admin portal
 # DISABLE_ADMIN_PASSWORD_CHECK = false
 # ADMIN CONTACT, CAN BE ANY STRING
 # ADMIN_CONTACT = "xx@xx.xxx"
 # Create new address with default domain first, if set true, will use first domain from DEFAULT_DOMAINS when no domain specified
 # CREATE_ADDRESS_DEFAULT_DOMAIN_FIRST = false
-DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
-DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
+DEFAULT_DOMAINS = ["xlike.nyc.mn"] # domain name for no role users
+DOMAINS = ["xlike.nyc.mn"] # all domain names
 # For chinese domain name, you can use DOMAIN_LABELS to show chinese domain name
 # DOMAIN_LABELS = ["中文.xxx", "xxx.xxx2"]
 # USER_DEFAULT_ROLE = "vip" # default role for new users(only when enable mail verification)
@@ -59,7 +59,7 @@ DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "vip", prefix = "vip" },
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "admin", prefix = "" },
 # ]
-JWT_SECRET = "xxx"
+JWT_SECRET = "xlike"
 BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
@@ -131,8 +131,8 @@ ENABLE_AUTO_REPLY = false
 
 [[d1_databases]]
 binding = "DB"
-database_name = "xxx"
-database_id = "xxx"
+database_name = "temp-email"
+database_id = "8de5d498-502d-4072-baf3-a5c79c29891b"
 
 # Workers AI binding (required for AI email extraction)
 # [ai]
